@@ -1,4 +1,6 @@
 
+SHOW TABLES;
+
 
 
 CREATE TABLE Events (
