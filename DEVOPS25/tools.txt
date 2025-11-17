@@ -1,0 +1,2 @@
+Extension i VSCode som används: mtxr.sqltools-driver-mysql
+
