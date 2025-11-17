@@ -33,5 +33,12 @@ SELECT e.EventName, e.EventDate, l.LocationName, l.Address, l.City
     FROM Events e
 JOIN Locations l ON e.LocationID = l.LocationID;
 
-SELECT * FROM EventLocations;
+-- Enklare tack vara vyn
+SELECT * FROM EventLocations
+WHERE EventDate > "2026-12-05";
 
+-- Utan vy
+SELECT e.EventName, e.EventDate, l.LocationName, l.Address, l.City
+    FROM Events e
+JOIN Locations l ON e.LocationID = l.LocationID
+WHERE EventDate > "2026-12-05";
