@@ -12,4 +12,6 @@ INSERT INTO
         (1, '2021-03-15 09:00:00'),
         (2, '2021-03-16 10:00:00');
 
+ALTER TABLE Events ADD EventDate DATETIME;
+
 SELECT * FROM Events;
