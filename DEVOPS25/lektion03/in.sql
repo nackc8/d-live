@@ -38,4 +38,4 @@ INSERT INTO Employee (Name, BirthYear, City, DepartmentId) VALUES
 -- Your statements below
 
 SELECT * FROM Employee;
-SELECT * FROM Department;
+
