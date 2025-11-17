@@ -154,5 +154,7 @@
       "username": "root",
       "database": "information_schema"
     }
-  ]
+  ],
+  "sqltools.resultsLocation": "output",
+  "sqltools.showResultsInTab": false
 }
