@@ -61,7 +61,7 @@
       "version": 238,
       "versionNonce": 1240156237,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1763372532076,
       "link": null,
       "locked": false,
@@ -133,7 +133,7 @@
       "version": 82,
       "versionNonce": 1922144067,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1763372537431,
       "link": null,
       "locked": false,
@@ -170,7 +170,7 @@
       "version": 164,
       "versionNonce": 849415939,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1763372388847,
       "link": null,
       "locked": false,
@@ -207,7 +207,7 @@
       "version": 29,
       "versionNonce": 341793549,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1763371994252,
       "link": null,
       "locked": false,
@@ -244,7 +244,7 @@
       "version": 75,
       "versionNonce": 1790712525,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1763372419591,
       "link": null,
       "locked": false,
@@ -318,7 +318,7 @@
       "version": 51,
       "versionNonce": 779178189,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1763372515124,
       "link": null,
       "locked": false,
@@ -1433,55 +1433,6 @@
       "originalText": "Enköping",
       "autoResize": true,
       "lineHeight": 1.25
-    },
-    {
-      "id": "hv_HaccVobra_DLLczdJp",
-      "type": "line",
-      "x": 125.81598154703775,
-      "y": 171.67472642553258,
-      "width": 184.35847146170485,
-      "height": 464.6163940429687,
-      "angle": 0,
-      "strokeColor": "#2f9e44",
-      "backgroundColor": "transparent",
-      "fillStyle": "solid",
-      "strokeWidth": 2,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "groupIds": [],
-      "frameId": null,
-      "index": "ac",
-      "roundness": {
-        "type": 2
-      },
-      "seed": 1192011075,
-      "version": 120,
-      "versionNonce": 879355267,
-      "isDeleted": false,
-      "boundElements": null,
-      "updated": 1763372728941,
-      "link": null,
-      "locked": false,
-      "points": [
-        [
-          0,
-          0
-        ],
-        [
-          109.12699563162667,
-          -75.23147583007811
-        ],
-        [
-          184.35847146170485,
-          389.38491821289057
-        ]
-      ],
-      "lastCommittedPoint": null,
-      "startBinding": null,
-      "endBinding": null,
-      "startArrowhead": null,
-      "endArrowhead": null
     }
   ],
   "appState": {

@@ -1,6 +1,5 @@
 -- Kör employees.sql först för att skapa databasen och tabellerna
 
-
 SELECT * FROM Employee;
 SELECT * FROM Department;
 
