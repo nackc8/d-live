@@ -154,5 +154,6 @@
       "username": "root",
       "database": "information_schema"
     }
-  ]
+  ],
+  "sqltools.results.reuseTabs": "connection"
 }
