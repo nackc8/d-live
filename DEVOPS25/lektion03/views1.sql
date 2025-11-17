@@ -1,5 +1,5 @@
 CREATE TABLE Events (
-    EventID INT PRIMARY KEY AUTO_INCREMENT,
+    EventID INT PRIMARY KEY,
     EventName VARCHAR(255),
     EventDate DATETIME,
     LocationID INT
