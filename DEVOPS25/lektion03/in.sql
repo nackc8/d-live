@@ -2,6 +2,3 @@
 
 -- Anställda som bor i Västerås eller Enköping
 SELECT * FROM Employee WHERE City IN ("Västerås","Enköping");
-
-
-
