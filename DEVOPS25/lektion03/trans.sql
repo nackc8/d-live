@@ -53,3 +53,4 @@ INSERT INTO Employee (Name, BirthYear, City, DepartmentId) VALUES
 
 
 SELECT * FROM Employee;
+
