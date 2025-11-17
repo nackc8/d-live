@@ -32,3 +32,6 @@ CREATE VIEW EventLocations AS
 SELECT e.EventName, e.EventDate, l.LocationName, l.Address, l.City
     FROM Events e
 JOIN Locations l ON e.LocationID = l.LocationID;
+
+SELECT * FROM EventLocations;
+
