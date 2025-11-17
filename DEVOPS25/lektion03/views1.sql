@@ -24,4 +24,4 @@ JOIN Locations l ON e.LocationID = l.LocationID;
 
 SELECT EventName, EventDate, LocationName, Address, City
     FROM Events
-JOIN Locations ON LocationID = LocationID;
+JOIN Locations ON Events.LocationID = Locations.LocationID;
