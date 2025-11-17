@@ -12,6 +12,11 @@ INSERT INTO
         (1, '2021-03-15 09:00:00'),
         (2, '2021-03-16 10:00:00');
 
+INSERT INTO
+    Events (EventID, StringDate) VALUES
+        (3, 'Hej'),
+
+
 ALTER TABLE Events ADD EventDate DATETIME;
 
 UPDATE Events
