@@ -1,0 +1,11 @@
+
+
+
+CREATE TABLE Events (
+EventID INT PRIMARY KEY,
+StringDate VARCHAR(50)
+);
+GO
+INSERT INTO Events (EventID, StringDate) VALUES (1, '2021-03-15 09:00:00');
+INSERT INTO Events (EventID, StringDate) VALUES (2, '2021-03-16 10:00:00');
+GO
