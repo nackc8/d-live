@@ -8,5 +8,6 @@ CREATE TABLE Events (
 
 
 INSERT INTO Events (EventID, StringDate) VALUES (1, '2021-03-15 09:00:00');
+
 INSERT INTO Events (EventID, StringDate) VALUES (2, '2021-03-16 10:00:00');
 
