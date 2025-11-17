@@ -52,5 +52,4 @@ INSERT INTO Employee (Name, BirthYear, City, DepartmentId) VALUES
     ('Mayank', 1995, 'Stockholm', 2);
 
 
-COMMIT;
-
+SELECT * FROM Employee;
