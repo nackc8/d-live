@@ -17,6 +17,7 @@ ALTER TABLE Events
     FOREIGN KEY (LocationID)
     REFERENCES Locations(LocationID);
 
+SELECT * FROM Locations;
 
 SELECT e.EventName, e.EventDate, l.LocationName, l.Address, l.City
     FROM Events e
