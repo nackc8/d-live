@@ -23,7 +23,8 @@ CREATE TABLE Employee (
 -- Insert two departments
 INSERT INTO Department (Name, City) VALUES
     ('Engineering', 'Stockholm'),
-    ('HR', 'Västerås');
+    ('HR', 'Västerås'),
+    ('Data Mining', 'Kalix');
 
 -- Insert six employees (one living in a different city than their dept)
 INSERT INTO Employee (Name, BirthYear, City, DepartmentId) VALUES
@@ -37,5 +38,8 @@ INSERT INTO Employee (Name, BirthYear, City, DepartmentId) VALUES
 
 -- Your statements below
 
-SELECT * FROM Employee;
+-- Anställda som bor i Västerås eller Enköping
+SELECT * FROM Employee WHERE City IN ("Västerås","Enköping");
+
+
 
