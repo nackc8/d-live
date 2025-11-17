@@ -152,7 +152,7 @@
       "name": "MariaDB",
       "password": "p",
       "username": "root",
-      "database": "information_schema"
+      "database": "ExExample"
     }
   ]
 }
