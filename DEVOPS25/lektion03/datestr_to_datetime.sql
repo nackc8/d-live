@@ -26,5 +26,7 @@ ALTER TABLE Events DROP COLUMN StringDate;
 
 SELECT * FROM Events;
 
+ALTER TABLE Events RENAME COLUMN ConvEnvDate TO StringDate;
+
 -- TODO: Kolla HOUR i MariaDB, att den tar strängar
-SELECT *, HOUR(EventDate) AS Calced FROM Events;
+SELECT *, HOUR(ConvEnvDate) AS Calced FROM Events;
