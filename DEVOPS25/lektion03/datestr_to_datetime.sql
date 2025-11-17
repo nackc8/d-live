@@ -14,7 +14,7 @@ INSERT INTO
 
 INSERT INTO
     Events (EventID, StringDate) VALUES
-        (3, 'Hej'),
+        (3, 'Hej');
 
 
 ALTER TABLE Events ADD EventDate DATETIME;
