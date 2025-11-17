@@ -35,6 +35,8 @@ INSERT INTO Employee (Name, BirthYear, City, DepartmentId) VALUES
     ('Erik', 1992, 'Stockholm', 2),
     ('Frida', 1987, 'Södertälje', 2);
 
+-- Kör employees.sql först för att skapa databasen och tabellerna
+
 -- Your statements below
 
 SELECT * FROM Employee;
