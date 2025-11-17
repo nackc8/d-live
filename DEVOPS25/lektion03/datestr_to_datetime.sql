@@ -17,4 +17,4 @@ ALTER TABLE Events ADD EventDate DATETIME;
 UPDATE Events
     SET EventDate = STR_TO_DATE(StringDate, '%Y-%m-%d %H:%i:%s');
 
-SELECT * FROM Events;
+SELECT *, HOUR(StringDate) AS Calced FROM Events;
