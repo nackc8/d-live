@@ -22,6 +22,13 @@ SELECT e.EventName, e.EventDate, l.LocationName, l.Address, l.City
     FROM Events e
 JOIN Locations l ON e.LocationID = l.LocationID;
 
+-- Utan vy
+SELECT e.EventName, e.EventDate, l.LocationName, l.Address, l.City
+    FROM Events e
+JOIN Locations l ON e.LocationID = l.LocationID;
+
+-- Med vy för att förenkla
+CREATE VIEW EventLocations AS
 SELECT e.EventName, e.EventDate, l.LocationName, l.Address, l.City
     FROM Events e
 JOIN Locations l ON e.LocationID = l.LocationID;
