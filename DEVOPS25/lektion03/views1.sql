@@ -18,6 +18,8 @@ ALTER TABLE Events
     REFERENCES Locations(LocationID);
 
 SELECT * FROM Locations;
+SELECT * FROM Events;
+
 
 SELECT e.EventName, e.EventDate, l.LocationName, l.Address, l.City
     FROM Events e
