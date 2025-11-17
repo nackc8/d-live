@@ -12,3 +12,8 @@ CREATE TABLE Locations (
     City VARCHAR(255)
 );
 
+ALTER TABLE Events
+    ADD CONSTRAINT FK_Event_Location
+    FOREIGN KEY (LocationID)
+    REFERENCES Locations(LocationID);
+
