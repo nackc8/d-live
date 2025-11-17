@@ -137,5 +137,22 @@
   "workbench.editor.showIcons": false,
   "workbench.hover.delay": 5000,
   "workbench.iconTheme": null,
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MariaDB",
+      "name": "MariaDB",
+      "password": "p",
+      "username": "root",
+      "database": "information_schema"
+    }
+  ]
 }
