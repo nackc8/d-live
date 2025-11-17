@@ -22,5 +22,9 @@ ALTER TABLE Events ADD EventDate DATETIME;
 UPDATE Events
     SET EventDate = STR_TO_DATE(StringDate, '%Y-%m-%d %H:%i:%s');
 
+ALTER TABLE Events DROP COLUMN StringDate;
+
+SELECT * FROM Events;
+
 -- TODO: Kolla HOUR i MariaDB, att den tar strängar
 SELECT *, HOUR(EventDate) AS Calced FROM Events;
