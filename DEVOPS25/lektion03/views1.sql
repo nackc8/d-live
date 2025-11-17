@@ -21,3 +21,7 @@ ALTER TABLE Events
 SELECT e.EventName, e.EventDate, l.LocationName, l.Address, l.City
     FROM Events e
 JOIN Locations l ON e.LocationID = l.LocationID;
+
+SELECT EventName, EventDate, LocationName, Address, City
+    FROM Events
+JOIN Locations ON LocationID = LocationID;
