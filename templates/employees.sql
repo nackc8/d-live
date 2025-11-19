@@ -4,6 +4,6 @@ SELECT * FROM Employee;
 SELECT * FROM Department;
 
 SELECT *
-FROM table1
-INNER JOIN table2
+FROM Employee
+INNER JOIN Department
 ON table1.common_column = table2.common_column;
