@@ -10,7 +10,7 @@ Stycke två, två två vååå två vååå två vååå två vååå två våå
 
 Fin kod:
 
-```
+```sql
 SELECT * FROM UNDERRUBRIK
 ```
 
