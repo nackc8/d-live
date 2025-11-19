@@ -25,16 +25,20 @@
         "type": 3
       },
       "seed": 895864854,
-      "version": 673,
-      "versionNonce": 613202390,
+      "version": 674,
+      "versionNonce": 1905476810,
       "isDeleted": false,
       "boundElements": [
         {
           "type": "text",
           "id": "0sN5e8D76AvDrwIf-H-Zq"
+        },
+        {
+          "id": "LIsT1gbxUjrb2BTaF7P4b",
+          "type": "arrow"
         }
       ],
-      "updated": 1763554484267,
+      "updated": 1763554502356,
       "link": null,
       "locked": false
     },
@@ -117,9 +121,9 @@
     {
       "id": "aGGfNryuAlACy6UCPpJG4",
       "type": "text",
-      "x": 438.34434509277344,
+      "x": 470.40431213378906,
       "y": 117.15365219116211,
-      "width": 425.53961181640625,
+      "width": 361.419677734375,
       "height": 50,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -134,20 +138,20 @@
       "index": "a3",
       "roundness": null,
       "seed": 1812501130,
-      "version": 494,
-      "versionNonce": 218150422,
+      "version": 495,
+      "versionNonce": 265855382,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1763554429146,
+      "updated": 1763554542498,
       "link": null,
       "locked": false,
-      "text": "Produkt\nId, Artnr, Namn, Kategori, Pris, Lagerstatus",
+      "text": "Produkt\nId, Namn, Kategori, Pris, Lagerstatus",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "cULT-UDqAJcwieHC13L8x",
-      "originalText": "Produkt\nId, Artnr, Namn, Kategori, Pris, Lagerstatus",
+      "originalText": "Produkt\nId, Namn, Kategori, Pris, Lagerstatus",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -173,8 +177,8 @@
         "type": 3
       },
       "seed": 1400545558,
-      "version": 383,
-      "versionNonce": 571166346,
+      "version": 384,
+      "versionNonce": 1978407498,
       "isDeleted": false,
       "boundElements": [
         {
@@ -184,9 +188,13 @@
         {
           "id": "_KVNKsZRzoXkLuhRT3B0B",
           "type": "arrow"
+        },
+        {
+          "id": "LIsT1gbxUjrb2BTaF7P4b",
+          "type": "arrow"
         }
       ],
-      "updated": 1763554447750,
+      "updated": 1763554502356,
       "link": null,
       "locked": false
     },
@@ -320,6 +328,174 @@
       "verticalAlign": "middle",
       "containerId": "_KVNKsZRzoXkLuhRT3B0B",
       "originalText": "en eller flera",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "LIsT1gbxUjrb2BTaF7P4b",
+      "type": "arrow",
+      "x": 577.566674456923,
+      "y": 288.56017781220976,
+      "width": 217.19932791775216,
+      "height": 78.53474025325175,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a8",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 2025300042,
+      "version": 416,
+      "versionNonce": 454966090,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "zFmxoB5m4srd-ccrKI-CF"
+        }
+      ],
+      "updated": 1763554506639,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -217.19932791775216,
+          -78.53474025325175
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "uVzYpPQVfB1ntR-GD7gJ1",
+        "focus": 0.3712062478948558,
+        "gap": 2.8939962295382884
+      },
+      "endBinding": {
+        "elementId": "c-BWENtTcnwlL-ofIMgKz",
+        "focus": -0.1142739031969285,
+        "gap": 2.1013028545274555
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "zFmxoB5m4srd-ccrKI-CF",
+      "type": "text",
+      "x": 458.3370208740235,
+      "y": 236.79280768558388,
+      "width": 21.259979248046875,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a9",
+      "roundness": null,
+      "seed": 1714489098,
+      "version": 24,
+      "versionNonce": 2063856598,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1763554505507,
+      "link": null,
+      "locked": false,
+      "text": "en",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "LIsT1gbxUjrb2BTaF7P4b",
+      "originalText": "en",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "jyShsaLglNSOqhYdegVlf",
+      "type": "rectangle",
+      "x": 20.109954833984375,
+      "y": 249.16665649414062,
+      "width": 345.6307678222656,
+      "height": 109.58587646484376,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aA",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1783187018,
+      "version": 466,
+      "versionNonce": 131953610,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "Khd_Mv-1AlEJfBfBDTgxK"
+        }
+      ],
+      "updated": 1763554514819,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "Khd_Mv-1AlEJfBfBDTgxK",
+      "type": "text",
+      "x": 54.55546569824219,
+      "y": 278.9595947265625,
+      "width": 276.73974609375,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aB",
+      "roundness": null,
+      "seed": 1117646090,
+      "version": 554,
+      "versionNonce": 1383800662,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1763554564046,
+      "link": null,
+      "locked": false,
+      "text": "Pris\nId, Ink.pris, Ut.pris, Kampanj",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "jyShsaLglNSOqhYdegVlf",
+      "originalText": "Pris\nId, Ink.pris, Ut.pris, Kampanj",
       "autoResize": true,
       "lineHeight": 1.25
     }
