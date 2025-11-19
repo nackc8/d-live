@@ -21,3 +21,9 @@ for x in [1, 2, 3]:
 
 Man kan även skriva inline-kod, som t.ex. `SELECT * FROM BLAHA`.
 
+```mermaid
+erDiagram
+Kunder ||--o{ Bestallningar : "har"
+Produkter ||--o{ BestallningsProdukter : "finns i"
+Bestallningar ||--o{ BestallningsProdukter : "inkluderar"
+```
