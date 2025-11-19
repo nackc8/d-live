@@ -23,7 +23,7 @@ SELECT * FROM Employee LEFT JOIN Department ON Employee.City = Department.City;
 
 SELECT *
 FROM Employee -- Endast rader som uppfyller ON-villkoret från denna
-LEFT JOIN Department -- Alla rader från denna!
+RIGHT JOIN Department -- Alla rader från denna!
 ON Employee.City = Department.City;
 
 SELECT * FROM Employee RIGHT JOIN Department ON Employee.City = Department.City;
