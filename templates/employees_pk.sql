@@ -24,7 +24,8 @@ CREATE TABLE Employee (
 -- Insert two departments
 INSERT INTO Department (Name, City) VALUES
     ('Engineering', 'Stockholm'),
-    ('HR', 'Västerås');
+    ('HR', 'Västerås'),
+    ('HR', 'Malmö');
 
 -- Insert six employees (one living in a different city than their dept)
 INSERT INTO Employee (Name, BirthYear, City, DepartmentId) VALUES
