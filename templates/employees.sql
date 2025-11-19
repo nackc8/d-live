@@ -6,4 +6,4 @@ SELECT * FROM Department;
 SELECT *
 FROM Employee
 INNER JOIN Department
-ON table1.common_column = table2.common_column;
+ON Employee.City = Department.City;
