@@ -78,9 +78,9 @@
     {
       "id": "cULT-UDqAJcwieHC13L8x",
       "type": "rectangle",
-      "x": 511.50181579589844,
-      "y": 78.21088790893555,
-      "width": 255.4977111816407,
+      "x": 419.48799133300776,
+      "y": 87.15365219116211,
+      "width": 463.25231933593767,
       "height": 110,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -97,26 +97,30 @@
         "type": 3
       },
       "seed": 159030218,
-      "version": 182,
-      "versionNonce": 1064314262,
+      "version": 424,
+      "versionNonce": 1546862806,
       "isDeleted": false,
       "boundElements": [
         {
           "type": "text",
           "id": "aGGfNryuAlACy6UCPpJG4"
+        },
+        {
+          "id": "_KVNKsZRzoXkLuhRT3B0B",
+          "type": "arrow"
         }
       ],
-      "updated": 1763554294959,
+      "updated": 1763554429146,
       "link": null,
       "locked": false
     },
     {
       "id": "aGGfNryuAlACy6UCPpJG4",
       "type": "text",
-      "x": 562.7807235717773,
-      "y": 83.21088790893555,
-      "width": 152.9398956298828,
-      "height": 100,
+      "x": 438.34434509277344,
+      "y": 117.15365219116211,
+      "width": 425.53961181640625,
+      "height": 50,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -130,14 +134,14 @@
       "index": "a3",
       "roundness": null,
       "seed": 1812501130,
-      "version": 252,
-      "versionNonce": 1757610710,
+      "version": 494,
+      "versionNonce": 218150422,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1763554294959,
+      "updated": 1763554429146,
       "link": null,
       "locked": false,
-      "text": "Produkt\nId, Artnr, Namn,\nKategori, Pris,\nLagerstatus",
+      "text": "Produkt\nId, Artnr, Namn, Kategori, Pris, Lagerstatus",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "center",
@@ -150,8 +154,8 @@
     {
       "id": "uVzYpPQVfB1ntR-GD7gJ1",
       "type": "rectangle",
-      "x": 418.04115295410156,
-      "y": 239.10859298706055,
+      "x": 395.03761291503906,
+      "y": 291.45417404174805,
       "width": 385.70599365234375,
       "height": 79.26177978515625,
       "angle": 0,
@@ -169,25 +173,29 @@
         "type": 3
       },
       "seed": 1400545558,
-      "version": 310,
-      "versionNonce": 2116661654,
+      "version": 382,
+      "versionNonce": 936080726,
       "isDeleted": false,
       "boundElements": [
         {
           "type": "text",
           "id": "pvbHyF-ogt-PRfPptBsVf"
+        },
+        {
+          "id": "_KVNKsZRzoXkLuhRT3B0B",
+          "type": "arrow"
         }
       ],
-      "updated": 1763554297275,
+      "updated": 1763554430831,
       "link": null,
       "locked": false
     },
     {
       "id": "pvbHyF-ogt-PRfPptBsVf",
       "type": "text",
-      "x": 565.6041870117188,
-      "y": 253.73948287963867,
-      "width": 90.57992553710938,
+      "x": 425.5807342529297,
+      "y": 306.0850639343262,
+      "width": 324.6197509765625,
       "height": 50,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -202,20 +210,116 @@
       "index": "a5",
       "roundness": null,
       "seed": 485625430,
-      "version": 309,
-      "versionNonce": 527307542,
+      "version": 417,
+      "versionNonce": 547248790,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1763554318476,
+      "updated": 1763554430831,
       "link": null,
       "locked": false,
-      "text": "Order\nId, Ordnr",
+      "text": "Order\nId, Ordnr, Datum, Produkt.id, Fnr",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "uVzYpPQVfB1ntR-GD7gJ1",
-      "originalText": "Order\nId, Ordnr",
+      "originalText": "Order\nId, Ordnr, Datum, Produkt.id, Fnr",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "_KVNKsZRzoXkLuhRT3B0B",
+      "type": "arrow",
+      "x": 610.4519614705249,
+      "y": 291.2490351567551,
+      "width": 39.31110909396659,
+      "height": 93.8613393743455,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a6",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1747258838,
+      "version": 230,
+      "versionNonce": 1348638678,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "_CuhFBNJFNV0CZYgMyTpa"
+        }
+      ],
+      "updated": 1763554430831,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          39.31110909396659,
+          -93.8613393743455
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "uVzYpPQVfB1ntR-GD7gJ1",
+        "focus": 0.028196399806125434,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "cULT-UDqAJcwieHC13L8x",
+        "focus": -0.08504122502254297,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "_CuhFBNJFNV0CZYgMyTpa",
+      "type": "text",
+      "x": 569.6420135498047,
+      "y": 234.46632385253906,
+      "width": 120.11990356445312,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a7",
+      "roundness": null,
+      "seed": 1355718870,
+      "version": 16,
+      "versionNonce": 1107768534,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1763554426404,
+      "link": null,
+      "locked": false,
+      "text": "en eller flera",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "_KVNKsZRzoXkLuhRT3B0B",
+      "originalText": "en eller flera",
       "autoResize": true,
       "lineHeight": 1.25
     }
