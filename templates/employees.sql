@@ -13,6 +13,6 @@ ON Employee.City = Department.City;
 
 
 SELECT *
-FROM Employee
+FROM Employee -- Alla rader från denna!
 LEFT JOIN Department
 ON Employee.City = Department.City;
