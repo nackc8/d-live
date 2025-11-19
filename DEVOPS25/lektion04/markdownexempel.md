@@ -14,3 +14,10 @@ Fin kod:
 SELECT * FROM UNDERRUBRIK
 ```
 
+```python
+for x in [1, 2, 3]:
+    print(x)
+```
+
+Man kan även skriva inline-kod, som t.ex. `SELECT * FROM BLAHA`.
+
