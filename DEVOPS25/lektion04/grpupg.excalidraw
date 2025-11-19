@@ -222,20 +222,20 @@
       "index": "a5",
       "roundness": null,
       "seed": 485625430,
-      "version": 598,
-      "versionNonce": 1307315850,
+      "version": 607,
+      "versionNonce": 1754162198,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1763554611448,
+      "updated": 1763554687034,
       "link": null,
       "locked": false,
-      "text": "Order\nId, Ordnr, Datum, Produkt.id,  Antal,\nKunder.id, Fnr",
+      "text": "Order\nId, Ordnr, Datum, Produkt.id,  Antal,\nKunder.id, Fnr, Pris.id",
       "fontSize": 20,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "uVzYpPQVfB1ntR-GD7gJ1",
-      "originalText": "Order\nId, Ordnr, Datum, Produkt.id,  Antal,  Kunder.id, Fnr",
+      "originalText": "Order\nId, Ordnr, Datum, Produkt.id,  Antal,  Kunder.id, Fnr, Pris.id",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -434,8 +434,8 @@
     {
       "id": "jyShsaLglNSOqhYdegVlf",
       "type": "rectangle",
-      "x": 20.109954833984375,
-      "y": 249.16665649414062,
+      "x": 19.386566162109375,
+      "y": 249.44699096679688,
       "width": 345.6307678222656,
       "height": 109.58587646484376,
       "angle": 0,
@@ -453,8 +453,8 @@
         "type": 3
       },
       "seed": 1783187018,
-      "version": 467,
-      "versionNonce": 1466827210,
+      "version": 468,
+      "versionNonce": 1077694486,
       "isDeleted": false,
       "boundElements": [
         {
@@ -466,15 +466,15 @@
           "type": "arrow"
         }
       ],
-      "updated": 1763554606803,
+      "updated": 1763554676660,
       "link": null,
       "locked": false
     },
     {
       "id": "Khd_Mv-1AlEJfBfBDTgxK",
       "type": "text",
-      "x": 49.68547058105469,
-      "y": 278.9595947265625,
+      "x": 48.96208190917969,
+      "y": 279.23992919921875,
       "width": 286.479736328125,
       "height": 50,
       "angle": 0,
@@ -490,11 +490,11 @@
       "index": "aB",
       "roundness": null,
       "seed": 1117646090,
-      "version": 561,
-      "versionNonce": 1227742230,
+      "version": 562,
+      "versionNonce": 61201750,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1763554588639,
+      "updated": 1763554676660,
       "link": null,
       "locked": false,
       "text": "Pris\nId, Ink.pris, Ut.pris, KampPris",
@@ -511,9 +511,9 @@
       "id": "KMG3yUXpylTwFD1Oy0FyT",
       "type": "arrow",
       "x": 534.8315916379057,
-      "y": 343.3711590063876,
-      "width": 160.55978319369666,
-      "height": 40.113112465121105,
+      "y": 343.43211003698315,
+      "width": 161.28317186557172,
+      "height": 40.012537089020725,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -529,8 +529,8 @@
         "type": 2
       },
       "seed": 1450012758,
-      "version": 526,
-      "versionNonce": 81720586,
+      "version": 527,
+      "versionNonce": 1424736918,
       "isDeleted": false,
       "boundElements": [
         {
@@ -538,7 +538,7 @@
           "id": "47Sj0Expt8shb5lXtFowp"
         }
       ],
-      "updated": 1763554618144,
+      "updated": 1763554676661,
       "link": null,
       "locked": false,
       "points": [
@@ -547,8 +547,8 @@
           0
         ],
         [
-          -160.55978319369666,
-          -40.113112465121105
+          -161.28317186557172,
+          -40.012537089020725
         ]
       ],
       "lastCommittedPoint": null,
