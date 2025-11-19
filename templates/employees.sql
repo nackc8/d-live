@@ -18,6 +18,7 @@ CREATE TABLE Employee (
     City VARCHAR(100),
     DepartmentId INT,
     PRIMARY KEY (Id)
+    FOREIGN KEY (UserID) REFERENCES Users(UserID)
 );
 
 -- Insert two departments
