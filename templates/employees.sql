@@ -9,3 +9,10 @@ SELECT *
 FROM Employee
 INNER JOIN Department
 ON Employee.City = Department.City;
+
+
+
+SELECT *
+FROM Employee
+LEFT JOIN Department
+ON Employee.City = Department.City;
