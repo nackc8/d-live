@@ -33,5 +33,5 @@ SELECT * FROM Employee RIGHT JOIN Department ON Employee.City = Department.City;
 USE ExExample;
 SELECT *
 FROM Employee
-FULL JOIN Department
+FULL OUTER JOIN Department
 ON Employee.City = Department.City;
