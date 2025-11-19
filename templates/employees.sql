@@ -20,3 +20,7 @@ ON Employee.City = Department.City;
 SELECT * FROM Employee LEFT JOIN Department ON Employee.City = Department.City;
 --            ^--- left eftersom  ^--- till höger om left
 --         Employee står till vänster om Department på raden
+
+SELECT * FROM Employee RIGHT JOIN Department ON Employee.City = Department.City;
+--            ^--- left eftersom  ^--- till höger om left
+--         Employee står till vänster om Department på raden
