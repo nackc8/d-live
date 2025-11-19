@@ -30,6 +30,8 @@ SELECT * FROM Employee RIGHT JOIN Department ON Employee.City = Department.City;
 --            ^--- left eftersom  ^--- till höger om left
 --         Employee står till vänster om Department på raden
 
+
+-- TODO: Återkom.
 USE ExExample;
 SELECT *
 FROM Employee
