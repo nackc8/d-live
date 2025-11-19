@@ -17,8 +17,8 @@ CREATE TABLE Employee (
     BirthYear INT,
     City VARCHAR(100),
     DepartmentId INT,
-    PRIMARY KEY (Id)
-    FOREIGN KEY (UserID) REFERENCES Users(UserID)
+    PRIMARY KEY (Id),
+    FOREIGN KEY (DepartmentId) REFERENCES Department()
 );
 
 -- Insert two departments
