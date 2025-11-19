@@ -35,13 +35,3 @@ INSERT INTO Employee (Name, BirthYear, City, DepartmentId) VALUES
     ('Diana', 1979, 'Västerås', 2),
     ('Erik', 1992, 'Stockholm', 2),
     ('Frida', 1987, 'Södertälje', 2);
-
--- Kör employees_pk.sql först för att skapa databasen och tabellerna
-
-SELECT * FROM Employee;
-SELECT * FROM Department;
-
-SELECT *
-FROM table1
-INNER JOIN table2
-ON table1.common_column = table2.common_column;
