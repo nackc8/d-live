@@ -16,3 +16,7 @@ SELECT *
 FROM Employee -- Alla rader från denna!
 LEFT JOIN Department -- Endast rader som uppfyller ON-villkoret från denna
 ON Employee.City = Department.City;
+
+SELECT * FROM Employee
+LEFT JOIN Department -- Endast rader som uppfyller ON-villkoret från denna
+ON Employee.City = Department.City;
